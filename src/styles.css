@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+input{
+    display: block;
+    margin: 5px;
+}
+.col{
+    flex-grow: 1;
+    margin: 10px;
+}
+.row{
+    display: flex;
+    height: 100%;
+
+}
+button{
+    background-color: blue;
+    margin: 2px;
+}
+
+html{
+    height: 100%;
+    width: auto;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
